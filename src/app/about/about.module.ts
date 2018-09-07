@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AboutPage } from './about.page';
 import { KnightComponent } from '../knight/knight.component';
 import { SquareComponent } from '../square/square.component';
+import { BoardComponent } from '../board/board.component';
 
 @NgModule({
   imports: [
@@ -14,6 +15,6 @@ import { SquareComponent } from '../square/square.component';
     FormsModule,
     RouterModule.forChild([{ path: '', component: AboutPage }])
   ],
-  declarations: [AboutPage, KnightComponent, SquareComponent]
+  declarations: [AboutPage, KnightComponent, SquareComponent, BoardComponent]
 })
 export class AboutPageModule { }
