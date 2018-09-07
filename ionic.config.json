@@ -1,0 +1,7 @@
+{
+  "name": "chessdnd",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
