@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AboutPage } from './about.page';
+import { KnightComponent } from '../knight/knight.component';
+import { SquareComponent } from '../square/square.component';
 
 @NgModule({
   imports: [
@@ -12,6 +14,6 @@ import { AboutPage } from './about.page';
     FormsModule,
     RouterModule.forChild([{ path: '', component: AboutPage }])
   ],
-  declarations: [AboutPage]
+  declarations: [AboutPage, KnightComponent, SquareComponent]
 })
-export class AboutPageModule {}
+export class AboutPageModule { }
