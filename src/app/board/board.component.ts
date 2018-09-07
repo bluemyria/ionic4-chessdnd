@@ -22,14 +22,6 @@ export class BoardComponent {
     }
   }
 
-  isBlack({ x, y }: Coord) {
-    return (x + y) % 2 === 1;
-  }
 
-  handleSquareClick(pos: Coord) {
-    if (this.gameService.canMoveKnight(pos)) {
-      this.gameService.moveKnight(pos);
-    }
-  }
 
 }
